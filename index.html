@@ -6,18 +6,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <p id="new-task_section" class="new-task">
+    </header>
+    <main class="main">
+      <section id="new-task_section" class="new-task">
         <h3 class="new-task__title">Add Item</h3>
         <div class="new-task__wrapper">
           <input class="new-task__input input" id="new-task" type="text">
           <button class="button new-task__btn">Add</button>
         </div>
-      </p>
+      </section>
+      <section class="todo">
       <h3 class="todo__title">Todo</h3>
       <ul id="incomplete-tasks" class="todo__list list">
         <li class="todo__item list__item">
@@ -35,17 +36,20 @@
           <button class="delete button"><img class="delete__img" src="./remove.svg"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="completed-tasks" class="completed__list list">
-        <li class="completed__item list__item">
-          <input type="checkbox" class="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task input completed__input">
-          <button class="edit button">Edit</button>
-          <button class="delete button"><img class="delete__img" src="./remove.svg"></button>
-        </li>
-      </ul>
-    </div>
+      </section>
+      <section class="compledet">
+        <h3 class="completed__title">Completed</h3>
+        <ul id="completed-tasks" class="completed__list list">
+          <li class="completed__item list__item">
+            <input type="checkbox" class="checkbox" checked>
+            <label class="task">See the Doctor</label>
+            <input type="text" class="task input completed__input">
+            <button class="edit button">Edit</button>
+            <button class="delete button"><img class="delete__img" src="./remove.svg"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
