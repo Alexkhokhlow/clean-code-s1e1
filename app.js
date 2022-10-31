@@ -85,11 +85,10 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".edit");
-    var containsClass=listItem.classList.contains("editmode");
-    //If class of the parent is .editmode
+    var containsClass=listItem.classList.contains("todo__item_edit");
     if(containsClass){
 
-        //switch to .editmode
+        //switch to todo__item_edit
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
@@ -99,7 +98,7 @@ var editTask=function(){
     }
 
     //toggle .editmode on the parent.
-    listItem.classList.toggle("editmode");
+    listItem.classList.toggle("todo__item_edit");
 };
 
 
