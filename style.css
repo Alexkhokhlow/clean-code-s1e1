@@ -48,7 +48,7 @@
   list-style: none;
 }
 .input,.button, .checkbox{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
