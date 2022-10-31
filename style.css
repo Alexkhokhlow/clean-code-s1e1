@@ -43,7 +43,8 @@
 .list__item {
   list-style: none;
 }
-.input,.button,
+.input,
+.button,
 .checkbox{
   outline: none;
 }
