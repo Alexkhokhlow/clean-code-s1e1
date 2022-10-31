@@ -20,7 +20,7 @@
   .header { 
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
@@ -41,11 +41,11 @@
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list__item {
-  list-style:none;
+  list-style: none;
 }
 .input,.button, .checkbox{
   outline:none;
@@ -122,7 +122,7 @@ li > .checkbox {
   font-size: 18px;
   width: 226px;
 }
-li >    .input {
+li > .input {
   width: 226px
 }
 
@@ -148,12 +148,12 @@ li >    .input {
 /* Edit Task  */
  
 .todo__input, .completed__input {
-  display:none
+  display: none
 }
 .todo__item_edit .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .edited {
-  display:none;
+  display: none;
 }
